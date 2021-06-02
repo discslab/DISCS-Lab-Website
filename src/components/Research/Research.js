@@ -38,6 +38,11 @@ class Research extends Component {
                 <div className="col">
                   <span className="list-description">{item.description}</span>
                   <span className="list-direction">{item.direction}</span>
+                  {/*<div className="list-keywords">
+                    {item.keywords.map((word, index) => {
+                      return <span className="keyword">{word}</span>;
+                    })}
+                  </div>*/}
                 </div>
               </React.Fragment>
             );
