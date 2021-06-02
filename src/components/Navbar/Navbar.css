@@ -1,0 +1,190 @@
+.NavbarItems {
+  background: black;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  z-index: 1;
+  position: fixed;
+}
+
+.navbar-logo {
+  background-image: url("../../assets/logos/medium_red_white.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 180px;
+  height: 50px;
+  justify-self: start;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+.fa-home {
+  display: none;
+}
+
+.fa-user-friends {
+  display: none;
+}
+
+.fa-searchengin {
+  display: none;
+}
+
+.fa-newspaper {
+  display: none;
+}
+
+.fa-paperclip {
+  display: none;
+}
+
+.fa-chalkboard-teacher {
+  display: none;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-gap: 10px;
+  list-style-type: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+  margin-bottom: 0;
+}
+
+.--active {
+  color: #ed1b2f !important;
+}
+
+.nav-item {
+  color: white;
+}
+
+.nav-links {
+  color: inherit;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #1b2631;
+  border-radius: 4px;
+  color: inherit;
+  transition: all 0.2s ease-out;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.fa-plus-circle {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .NavbarItems {
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    justify-content: left;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    gap: 0.3rem;
+    left: -100%;
+    opacity: 90%;
+    position: absolute;
+    top: 60px;
+    transition: all 0.2s linear;
+    width: 100%;
+  }
+
+  .nav-menu.active {
+    background: black;
+    top: 60px;
+    left: 0;
+    position: absolute;
+    z-index: -3;
+  }
+
+  .nav-links {
+    text-align: left;
+    padding: 0.8rem 3rem;
+    width: 100%;
+    display: table;
+  }
+  .nav-links:hover {
+    background-color: #1b2631;
+    color: inherit;
+    border-radius: 0;
+    text-decoration: none;
+  }
+
+  .navbar-logo {
+    justify-self: left;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 40%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-bars {
+    display: block;
+    margin-top: 13%;
+  }
+
+  .fa-home {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+
+  .fa-user-friends {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+
+  .fa-searchengin {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+
+  .fa-paperclip {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+
+  .fa-chalkboard-teacher {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+
+  .fa-newspaper {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+
+  .fa-plus-circle {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+}

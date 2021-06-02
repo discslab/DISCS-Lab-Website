@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+<ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {MenuItems.map((item, index) => {
+                        return (
+                        <li>
+                            <a className={item.cName} href={item.url}>
+                            <i className={item.icon}></i>{item.title}
+                            </a>
+                        </li>
+                        )
+                    })}
+                </ul>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+                MenuItems.map(function(el) { return el.title; })
 
-## Available Scripts
+['home', 'research', 'team']
 
-In the project directory, you can run:
+                <Button>PhD/MSc/UG Openings</Button>
 
-### `npm start`
+      <Navbar />
+      <Home />
+      <Research />
+      <Team />
+      <News />
+      <Publications />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+      <span className="img-box"></span>
+        <header className="home-title-wrapper">
+          Data Intensive Storage & Computer Systems Lab
+        </header>
+        <span className="home-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          eget libero tempor, semper erat quis, ultricies lacus. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Pellentesque ac
+          scelerisque metus. <br />
+          <br />
+          Curabitur dapibus leo eget velit aliquet, a ultricies purus venenatis.
+          Donec augue ligula, tristique ac eros non, lacinia dapibus turpis. Sed
+          ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+          inventore veritatis et quasi architecto. <br />
+        </span>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+        KEYWORDS IN RESEARCH
+        <div className="list-keywords">
+                    {item.keywords.map((word, index) => {
+                      return <span className="keyword">{word}</span>;
+                    })}
+                  </div>

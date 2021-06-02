@@ -1,0 +1,95 @@
+.team {
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: 4rem;
+    padding-top: 40px;
+    flex-flow: row wrap;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.team-title-wrapper {
+    display: none;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.section-wrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 1rem 3rem;
+    width: 100%;
+}
+
+.portrait-wrapper {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem;
+    justify-content: center;
+    width: 300px;
+}
+
+.section-title {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: -1rem;
+    text-align: center;
+    width: 100%;
+}
+
+
+.portrait-image {
+    border-radius: 100%;
+    box-shadow: 3px 3px 10px #888888;
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+    object-position: top;
+    width: 200px;
+}
+
+.portrait-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.portrait-link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.portrait-subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.portrait-description {
+    color: grey;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0.75rem;
+    text-align: center;
+    width: 100%;
+}
+
+.fa-external-link-alt {
+    font-size: 1rem;
+}

@@ -1,0 +1,57 @@
+.news {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+  margin-bottom: 4rem;
+  padding-top: 40px;
+  flex-flow: row wrap;
+}
+
+.jumbotron {
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.jumbo-title {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.news-title-wrapper {
+  display: none;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.news-display-wrapper {
+  display: block;
+  min-width: 400px;
+  width: 70%;
+}
+
+.news-info-wrapper {
+  display: block;
+  width: 70%;
+}
+
+.news-year-list {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  .news-display-wrapper,
+  .news-info-wrapper {
+    width: 80%;
+  }
+}
