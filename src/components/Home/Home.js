@@ -12,7 +12,6 @@ class Home extends Component {
         <Jumbotron fluid className="home-jumbotron">
           <Container>
             <h1 className="home-jumbotron-title">
-              {" "}
               Data Intensive Storage & Computer Systems Lab
             </h1>
             <p className="home-jumbotron-description">

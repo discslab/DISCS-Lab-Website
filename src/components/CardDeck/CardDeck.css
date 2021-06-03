@@ -5,12 +5,11 @@
   flex-flow: row wrap;
   margin-bottom: 1rem;
   justify-content: space-around;
-  width: 1000px;
+  width: 1100px;
 }
 
 .card-wrapper {
-  border-radius: 15px;
-  max-width: 250px;
+  max-width: 300px;
   position: relative;
   top: 0;
   transition: top ease 0.5s;
@@ -22,9 +21,7 @@
 }
 
 .card-image {
-  background-color: black;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  background-color: #272725;
   object-fit: cover;
   margin: auto;
   padding: 1rem;
