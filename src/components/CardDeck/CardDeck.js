@@ -20,6 +20,7 @@ class DiscCardDeck extends Component {
 
               <Card.Body className="card-content">
                 <Card.Link href={item.target}>{item.title}</Card.Link>
+                <Card.Text className="card-text">{item.tagline}</Card.Text>
               </Card.Body>
             </Card>
           );
