@@ -8,6 +8,14 @@
 }
 
 .jumbotron {
+  background-color: #272725;
+  background-image: url("../../assets/images/resized_mcgill_logo.png");
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-blend-mode: multiply;
+  background-origin: content-box;
   padding: 2rem;
   text-align: center;
   font-size: 2rem;
@@ -15,6 +23,7 @@
 }
 
 .jumbo-title {
+  color: white;
   font-size: 3rem;
   font-weight: 300;
 }
