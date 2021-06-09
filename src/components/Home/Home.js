@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import DiscCardDeck from "../CardDeck/CardDeck.js";
-import Typical from "react-typical";
 import "./Home.css";
+import { TypedItems } from "./TypedItems.js";
 
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Typing from "react-typing-animation";
 
 class Home extends Component {
   render() {
@@ -17,21 +18,30 @@ class Home extends Component {
             </h1>
             <div className="home-jumbotron-tag-wrapper">
               <p className="home-jumbotron-tagline">Here, we </p>
-              <Typical
+
+              <Typing
                 className="home-jumbotron-animation"
-                steps={[
-                  "explore 🚀",
-                  5000,
-                  "reimagine 💡",
-                  5000,
-                  "overcome 🔥",
-                  5000,
-                  "achieve 🎉",
-                  5000,
-                ]}
-                loop={Infinity}
-                wrapper="p"
-              />
+                loop={true}
+                speed={50}
+              >
+                {TypedItems.map((item, index) => {
+                  return (
+                    <>
+                      <span
+                        style={{
+                          color: "#ED1B2F",
+                        }}
+                      >
+                        {item.text}
+                      </span>
+                      <Typing.Backspace
+                        count={item.text.length + 4}
+                        delay={3000}
+                      />
+                    </>
+                  );
+                })}
+              </Typing>
             </div>
             <p className="home-jumbotron-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -11,7 +11,7 @@ class DiscCardDeck extends Component {
       <CardDeck className="card-container">
         {DeckItems.map((item, index) => {
           return (
-            <Card className="card-wrapper shadow" key={index}>
+            <Card id={item.id} className="card-wrapper shadow" key={index}>
               <Card.Img
                 className="card-image"
                 variant="top"
