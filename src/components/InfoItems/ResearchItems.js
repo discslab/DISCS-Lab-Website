@@ -36,7 +36,7 @@ export const ResearchItems = [
     home_id: "item2",
     research_id: "research2",
     tagline:
-      "Reimagine how the basic storage building blocks can be redesigned with emerging storage technologies.",
+      "Reimagine how basic storage building blocks can be redesigned with emerging storage technologies.",
     target: "#research2",
   },
   {

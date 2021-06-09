@@ -9,7 +9,7 @@ class Research extends Component {
   render() {
     return (
       <section className="research" id="research">
-        <Jumbotron>
+        <Jumbotron fluid>
           <Container fluid>
             <h1 className="jumbo-title">RESEARCH</h1>
           </Container>

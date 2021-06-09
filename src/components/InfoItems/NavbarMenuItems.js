@@ -3,19 +3,19 @@
 export const NavbarMenuItems = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     cName: "nav-links",
     icon: "fas fa-home",
   },
   {
     title: "News",
-    url: "#news",
+    url: "/news",
     cName: "nav-links",
     icon: "far fa-newspaper",
   },
   {
     title: "Team",
-    url: "#team",
+    url: "/team",
     cName: "nav-links",
     icon: "fas fa-user-friends",
   },
@@ -34,13 +34,13 @@ export const NavbarMenuItems = [
 
   {
     title: "Teachings",
-    url: "#",
+    url: "/teachings",
     cName: "nav-links",
     icon: "fas fa-chalkboard-teacher",
   },
   {
     title: "PhD/MSc/UG Openings",
-    url: "#",
+    url: "/openings",
     cName: "nav-links",
     icon: "fas fa-plus-circle",
   },

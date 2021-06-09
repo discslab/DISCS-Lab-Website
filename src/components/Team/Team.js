@@ -13,7 +13,7 @@ class Team extends Component {
   render() {
     return (
       <section className="team" id="team">
-        <Jumbotron>
+        <Jumbotron fluid>
           <Container fluid>
             <h1 className="jumbo-title">TEAM</h1>
           </Container>

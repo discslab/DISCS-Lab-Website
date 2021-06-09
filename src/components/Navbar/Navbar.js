@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { NavbarMenuItems } from "../InfoItems/NavbarMenuItems";
 import "./Navbar.css";
 import Scrollspy from "react-scrollspy";
-
+import { Link } from "react-router-dom";
 class Navbar extends Component {
   state = { clicked: false };
 

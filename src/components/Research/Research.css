@@ -130,7 +130,7 @@
 
   .content-sidebar > *:nth-child(even) {
     flex: 1 1 70%;
-    line-height: 1.75;
+    line-height: 1.6;
     padding: 0 1rem;
   }
 

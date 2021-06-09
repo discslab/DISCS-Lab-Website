@@ -7,7 +7,7 @@ class Publications extends Component {
   render() {
     return (
       <section className="publications" id="publications">
-        <Jumbotron>
+        <Jumbotron fluid>
           <Container>
             <h1 className="jumbo-title">Publications coming soon!</h1>
           </Container>
