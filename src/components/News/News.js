@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./News.css";
 import NewsCarousel from "../NewsCarousel/NewsCarousel.js";
-import { NewsIcons } from "./NewsIcons.js";
-import { NewsItems } from "./NewsItems.js";
+import { NewsIconItems } from "../InfoItems/NewsIconItems";
+import { NewsDisplayItems } from "../InfoItems/NewsDisplayItems";
 
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
@@ -55,11 +55,11 @@ class News extends Component {
   renderContent() {
     return (
       <ListGroup className="new-list" variant="flush">
-        {NewsItems[this.state.display_year].map((item, index) => {
+        {NewsDisplayItems[this.state.display_year].map((item, index) => {
           return (
             <ListGroup.Item key={index}>
               <b>
-                {NewsIcons[item.type]} [{item.month}]
+                {NewsIconItems[item.type]} [{item.month}]
               </b>{" "}
               {item.content}
             </ListGroup.Item>
@@ -84,7 +84,7 @@ class News extends Component {
         <div className="news-info-wrapper">
           <div className="news-year-wrapper">
             <ul className="news-year-list">
-              {Object.keys(NewsItems)
+              {Object.keys(NewsDisplayItems)
                 .reverse()
                 .map((year, index) => {
                   return this.renderButton(year, index);

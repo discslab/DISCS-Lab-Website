@@ -1,4 +1,6 @@
-export const MenuItems = [
+// Displayed in NAVBAR
+// Stored as array where each object corresponds to a link in the navbar
+export const NavbarMenuItems = [
   {
     title: "Home",
     url: "#",

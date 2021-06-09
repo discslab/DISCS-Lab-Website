@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MenuItems } from "./MenuItems";
+import { NavbarMenuItems } from "../InfoItems/NavbarMenuItems";
 import "./Navbar.css";
 import Scrollspy from "react-scrollspy";
 
@@ -28,7 +28,7 @@ class Navbar extends Component {
           className={this.state.clicked ? "nav-menu active" : "nav-menu"}
           offset={-60}
         >
-          {MenuItems.map((item, index) => {
+          {NavbarMenuItems.map((item, index) => {
             return (
               <li className="nav-item" key={index}>
                 <a

@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { TeamLeads, Graduates, Undergraduates, Alumni } from "./TeamMembers.js";
+import {
+  TeamLeads,
+  Graduates,
+  Undergraduates,
+  Alumni,
+} from "../InfoItems/TeamMemberItems";
 import "./Team.css";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";

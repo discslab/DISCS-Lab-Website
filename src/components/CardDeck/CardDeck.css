@@ -39,7 +39,7 @@
   top: -10px;
 }
 
-.card-wrapper:hover > .card-content > .card-link {
+.card-wrapper:hover > .card-content > .card-title {
   color: #ed1b2f;
 }
 
@@ -62,14 +62,14 @@
   cursor: pointer;
 }
 
-.card-link {
+.card-title {
   color: black;
   flex-basis: 40%;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.card-link:hover {
+.card-title:hover {
   color: black;
 }
 

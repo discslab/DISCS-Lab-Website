@@ -1,3 +1,5 @@
+// Displayed in TEAM section
+// Four array of objects corresponding to TeamLeads, Graduates, Undergraduates, Alumni
 export const TeamLeads = [
   {
     title: "Dr. Oana Balmau",

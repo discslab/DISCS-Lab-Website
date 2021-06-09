@@ -1,4 +1,7 @@
-export const NewsItems = {
+// Displayed in NEWS section
+// Stored as map of arrays, where key is the year and value is the array of news items
+// TO EDIT: Add new object at beginning of array (most recent is at the beginning)
+export const NewsDisplayItems = {
   2021: [
     {
       month: "April",
