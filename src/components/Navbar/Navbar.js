@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { NavbarMenuItems } from "../InfoItems/NavbarMenuItems";
 import "./Navbar.css";
 import Scrollspy from "react-scrollspy";
-import { Link } from "react-router-dom";
 class Navbar extends Component {
   state = { clicked: false };
 
@@ -23,7 +22,14 @@ class Navbar extends Component {
           ></i>
         </div>
         <Scrollspy
-          items={["home", "news", "team", "research", "publications"]}
+          items={[
+            "home",
+            "news",
+            "team",
+            "research",
+            "publications",
+            "teachings",
+          ]}
           currentClassName="--active"
           className={this.state.clicked ? "nav-menu active" : "nav-menu"}
           offset={-60}
