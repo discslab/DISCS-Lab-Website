@@ -7,7 +7,8 @@
   align-items: center;
   font-size: 1rem;
   z-index: 1;
-  position: fixed;
+  position: sticky;
+  top: 0;
 }
 
 .navbar-logo {
@@ -26,7 +27,7 @@
   display: none;
 }
 
-.fa-user-friends {
+.fa-users {
   display: none;
 }
 
@@ -74,14 +75,31 @@
   color: inherit;
   font-weight: 400;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  padding: 0.5rem 0;
+  position: relative;
 }
 
+.nav-links:after {
+  content: "";
+  position: absolute;
+  background-color: #ed1b2f;
+  height: 2px;
+  width: 0;
+  right: 0;
+  bottom: 0;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
 .nav-links:hover {
-  background-color: #1b2631;
-  border-radius: 4px;
-  color: inherit;
+  color: #ed1b2f;
   transition: all 0.2s ease-out;
+}
+
+.nav-links:hover:after {
+  width: 100%;
+  left: 0;
+  right: auto;
 }
 
 .menu-icon {
@@ -124,6 +142,7 @@
   .nav-links {
     text-align: left;
     padding: 0.8rem 3rem;
+    margin: 0;
     width: 100%;
     display: table;
   }
@@ -132,6 +151,9 @@
     color: inherit;
     border-radius: 0;
     text-decoration: none;
+  }
+  .nav-links:after {
+    display: none;
   }
 
   .navbar-logo {
@@ -158,9 +180,9 @@
     padding-right: 0.5rem;
   }
 
-  .fa-user-friends {
+  .fa-users {
     display: inline;
-    padding-right: 0.5rem;
+    padding-right: 0.3rem;
   }
 
   .fa-searchengin {

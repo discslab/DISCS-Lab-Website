@@ -29,6 +29,7 @@ class Navbar extends Component {
             "research",
             "publications",
             "teachings",
+            "openings",
           ]}
           currentClassName="--active"
           className={this.state.clicked ? "nav-menu active" : "nav-menu"}
@@ -38,7 +39,7 @@ class Navbar extends Component {
             return (
               <li className="nav-item" key={index}>
                 <a
-                  className={item.cName}
+                  className="nav-links"
                   href={item.url}
                   onClick={this.handleClick}
                 >
