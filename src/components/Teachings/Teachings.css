@@ -1,8 +1,6 @@
 .teachings {
   background-color: white;
-  top: 50px;
   display: flex;
-  position: absolute;
   justify-content: center;
   flex-flow: row wrap;
   width: 100%;
@@ -18,9 +16,8 @@
 .teachings-content-sidebar > *:nth-child(odd) {
   flex: 1 1 30%;
   letter-spacing: 1px;
-  margin-top: -30px;
   min-width: 20ch;
-  padding: 3rem 0.25rem 0;
+  padding: 0 0.25rem 0;
 }
 
 .teachings-content-sidebar > *:nth-child(odd):before,
@@ -36,7 +33,7 @@
 
 .teachings-content-sidebar > *:nth-child(even) {
   flex: 1 1 70%;
-  padding: 2.5rem 0 1.5rem 5rem;
+  padding: 1.5rem 0 1.5rem 5rem;
 }
 
 .teachings-content-sidebar > *:nth-last-child(-n + 2):before {
@@ -69,7 +66,6 @@
   display: block;
   margin: 1rem 0;
   padding: 0 1rem 1rem;
-  text-align: justify;
 }
 
 .teachings-list-subtitle {

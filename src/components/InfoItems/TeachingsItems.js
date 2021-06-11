@@ -35,7 +35,7 @@ export const TeachingsItems = {
       ],
       prerequisites: ["COMP 273"],
       syllabus:
-        "https://www.cs.mcgill.ca/media/academic/courses/17_COMP_310_kotTIIj.pdf",
+        "https://www.cs.mcgill.ca/~jvybihal/assets/outlines/COMP310ECSE427CourseOutline.pdf",
       notes: "",
     },
   ],
