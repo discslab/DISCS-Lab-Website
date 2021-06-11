@@ -1,0 +1,85 @@
+.footer {
+  background-color: #272725;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.sitemap-wrapper {
+  color: white;
+  display: flex;
+  align-items: stretch;
+  flex-basis: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  height: 100%;
+  justify-content: space-evenly;
+  padding: 4rem 3rem 2rem;
+  width: 100%;
+}
+
+.site-contact {
+  font-size: 0.7;
+  font-weight: 200;
+}
+
+.sitemap-first-half {
+  display: flex;
+  flex-basis: 40%;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+.sitemap-second-half {
+  display: flex;
+  flex-basis: 40%;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.site-subtitle {
+  font-weight: 800;
+}
+
+.site-separator {
+  background-color: grey;
+  margin: 0.5rem 0 1rem;
+}
+
+.site-links-wrapper {
+  flex-basis: 40%;
+  margin-top: -1rem;
+  min-width: 250px;
+}
+
+.site-image {
+  max-width: 80%;
+  max-height: 100%;
+}
+
+.site-link-item {
+  color: white;
+}
+
+.site-link-item:hover {
+  color: #ed1b2f;
+}
+
+.site-links-list {
+  font-size: 0.9rem;
+  font-weight: 100;
+  list-style: none;
+}
+
+.copyright-wrapper {
+  color: white;
+  flex-basis: 20%;
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin: auto;
+  text-align: center;
+}
