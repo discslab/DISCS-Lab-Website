@@ -36,7 +36,7 @@ class Footer extends Component {
           </div>
           <div className="sitemap-second-half">
             <div className="site-links-wrapper">
-              <span className="site-subtitle">Site Links</span>
+              <span className="site-subtitle">Sitemap</span>
               <hr className="site-separator" />
               <ul className="site-links-list">
                 {NavbarMenuItems.map((item, index) => {
