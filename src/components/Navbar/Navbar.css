@@ -39,6 +39,10 @@
   display: none;
 }
 
+.fa-code {
+  display: none;
+}
+
 .fa-paperclip {
   display: none;
 }
@@ -53,8 +57,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(7, auto);
-  grid-gap: 10px;
+  grid-template-columns: repeat(8, auto);
   list-style-type: none;
   text-align: center;
   width: 70vw;
@@ -121,7 +124,7 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    height: 390px;
+    height: 450px;
     gap: 0.3rem;
     left: -100%;
     opacity: 90%;
@@ -193,6 +196,11 @@
   .fa-paperclip {
     display: inline;
     padding-right: 0.5rem;
+  }
+
+  .fa-code {
+    display: inline;
+    padding-right: 0.3rem;
   }
 
   .fa-chalkboard-teacher {

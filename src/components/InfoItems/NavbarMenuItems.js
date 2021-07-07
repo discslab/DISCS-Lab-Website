@@ -26,7 +26,11 @@ export const NavbarMenuItems = [
     url: "/#publications",
     icon: "fas fa-paperclip",
   },
-
+  {
+    title: "Code",
+    url: "/#code",
+    icon: "fas fa-code",
+  },
   {
     title: "Teachings",
     url: "/teachings",
