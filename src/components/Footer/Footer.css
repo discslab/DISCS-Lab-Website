@@ -65,7 +65,7 @@
 }
 
 .site-link-item:hover {
-  color: #ed1b2f;
+  color: #168ce2;
 }
 
 .site-links-list {
@@ -80,5 +80,6 @@
   font-size: 0.8rem;
   font-weight: 100;
   margin: auto;
+  padding-bottom: 1rem;
   text-align: center;
 }

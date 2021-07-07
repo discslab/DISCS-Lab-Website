@@ -72,7 +72,6 @@ class Footer extends Component {
           &#169; {new Date().getFullYear()} DISCS Lab @ McGill. All Rights
           Reserved.
         </div>
-        Big footer energy
       </section>
     );
   }

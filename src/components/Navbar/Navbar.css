@@ -64,7 +64,7 @@
 }
 
 .--active {
-  color: #ed1b2f !important;
+  color: #168ce2 !important;
 }
 
 .nav-item {
@@ -83,16 +83,16 @@
 .nav-links:after {
   content: "";
   position: absolute;
-  background-color: #ed1b2f;
-  height: 2px;
+  background-color: #168ce2;
+  height: 1px;
   width: 0;
-  right: 0;
+  left: 0;
   bottom: 0;
   transition-duration: 0.3s;
   transition-timing-function: ease-out;
 }
 .nav-links:hover {
-  color: #ed1b2f;
+  color: #168ce2;
   transition: all 0.2s ease-out;
 }
 

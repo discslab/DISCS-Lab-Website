@@ -29,7 +29,7 @@ class Home extends Component {
                     <>
                       <span
                         style={{
-                          color: "#ED1B2F",
+                          color: "#168CE2",
                         }}
                       >
                         {item.text}
