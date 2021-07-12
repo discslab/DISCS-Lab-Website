@@ -12,7 +12,7 @@ class Teachings extends Component {
       <section className="teachings" id="teachings">
         <Jumbotron fluid>
           <Container fluid>
-            <h1 className="jumbo-title">TEACHINGS</h1>
+            <h1 className="jumbo-title">TEACHING</h1>
           </Container>
         </Jumbotron>
         <div className="teachings-content-sidebar">
