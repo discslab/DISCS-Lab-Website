@@ -47,7 +47,7 @@ export const Undergraduates = [
   {
     title: "Xinran Xiong",
     subtitle: "COMP400 Project",
-    image_url: "/static/images/default_user_female.jpg",
+    image_url: "/static/images/xinran.png",
     website_url:
       "https://www.linkedin.com/in/xinran-xiong-b31525170/?originalSubdomain=ca",
     description: "To Be Determined",
