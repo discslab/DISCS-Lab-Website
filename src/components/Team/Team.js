@@ -118,7 +118,7 @@ class Team extends Component {
                     rel="noopener noreferrer"
                   >
                     {item.description}&nbsp;
-                    <i className="fas fa-external-link-alt"></i>
+                    <i class="fas fa-code-branch"></i>
                   </a>
                 </span>
               </div>

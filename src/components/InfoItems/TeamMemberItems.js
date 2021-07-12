@@ -45,13 +45,6 @@ export const Undergraduates = [
     description: "NoSQL Systems Design for Real-Time Data Analytics",
   },
   {
-    title: "Victor Livernoche",
-    subtitle: "COMP400 Project",
-    image_url: "/static/images/victor.png",
-    website_url: "https://www.linkedin.com/in/victor-livernoche/",
-    description: "Data Cleaning Policies for Write-Intensive Data-Stores",
-  },
-  {
     title: "Xinran Xiong",
     subtitle: "COMP400 Project",
     image_url: "/static/images/default_user_female.jpg",
@@ -85,5 +78,14 @@ export const Alumni = [
     description: "Monte Carlo Tree Search for Real-Time Recommendations",
     code_url:
       "https://gitlab.cs.mcgill.ca/discs-lab/comp-400-research-project-james-ting",
+  },
+  {
+    title: "Victor Livernoche",
+    subtitle: "COMP400 Project",
+    image_url: "/static/images/victor.png",
+    website_url: "https://www.linkedin.com/in/victor-livernoche/",
+    description: "Data Cleaning Policies for Write-Intensive Data-Stores",
+    code_url:
+      "https://gitlab.cs.mcgill.ca/discs-lab/rocksdb-compaction-policy-analysis",
   },
 ];
