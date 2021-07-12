@@ -11,7 +11,8 @@
 
 .home-jumbotron {
   align-items: center;
-  background-color: #272725;
+  /* background-color: linear-gradient(#000000 100%, #272725 100%); */
+  /* background-color: #272725; */
   background-image: url("../../assets/images/resized_mcgill_logo.png");
   background-attachment: fixed;
   background-size: contain;

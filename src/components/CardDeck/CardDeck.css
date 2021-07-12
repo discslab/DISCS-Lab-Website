@@ -10,6 +10,7 @@
 
 .card-wrapper {
   border: 2px #eaf2f2 solid;
+  font-weight: 300;
   max-width: 275px;
   min-width: 275px;
   min-height: 360px;

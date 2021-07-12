@@ -20,7 +20,7 @@ class Team extends Component {
         </Jumbotron>
         <header className="team-title-wrapper">TEAM</header>
 
-        <div className="section-title">TEAM LEAD</div>
+        <div className="section-title">FACULTY</div>
         <div className="section-wrapper">
           {TeamLeads.map((item, index) => {
             return (
