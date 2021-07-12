@@ -74,6 +74,37 @@
   list-style: none;
 }
 
+.sponsors-wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: auto;
+  max-width: 100vh;
+  padding: 1rem 0;
+}
+
+.sponsors-intro {
+  align-items: center;
+  display: block;
+  font-weight: 200;
+}
+
+.sponsors-content {
+  display: flex;
+}
+
+.sponsors-outro {
+  font-weight: 600;
+}
+
+.sponsors-image {
+  max-height: 100px;
+  margin: 0 1rem;
+}
+
 .copyright-wrapper {
   color: white;
   flex-basis: 20%;

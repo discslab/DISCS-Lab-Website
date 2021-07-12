@@ -68,6 +68,32 @@ class Footer extends Component {
             </div>
           </div>
         </div>
+        <div className="sponsors-wrapper">
+          <div className="sponsors-intro">
+            DISCS Lab could not exist without the generous support from our
+            sponsors. We are funded by:
+          </div>
+          <div className="sponsors-content">
+            <img
+              className="sponsors-image"
+              src="/static/sponsors/nserc.png"
+              alt="nserc"
+            />
+            <img
+              className="sponsors-image"
+              src="/static/sponsors/cfi.png"
+              alt="nserc"
+            />
+          </div>
+          <div className="sponsors-outro">
+            If you are interested in sponsoring our research, please contact us
+            at{" "}
+            <a href="mailto:oana.balmau@cs.mcgill.ca">
+              oana.balmau@cs.mcgill.ca
+            </a>
+            .
+          </div>
+        </div>
         <div className="copyright-wrapper">
           &#169; {new Date().getFullYear()} DISCS Lab @ McGill. All Rights
           Reserved.

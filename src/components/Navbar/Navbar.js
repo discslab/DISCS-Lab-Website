@@ -28,6 +28,7 @@ class Navbar extends Component {
             "team",
             "research",
             "publications",
+            "code",
             "teachings",
             "openings",
           ]}
