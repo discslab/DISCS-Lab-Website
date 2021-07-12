@@ -22,17 +22,17 @@ export const NavbarMenuItems = [
     icon: "fab fa-searchengin",
   },
   {
+    title: "Code",
+    url: "/#code",
+    icon: "fas fa-code",
+  },
+  {
     title: "Publications",
     url: "/#publications",
     icon: "fas fa-paperclip",
   },
   {
-    title: "Code",
-    url: "https://gitlab.cs.mcgill.ca/discs-lab",
-    icon: "fas fa-code",
-  },
-  {
-    title: "Teachings",
+    title: "Teaching",
     url: "/teachings",
     icon: "fas fa-chalkboard-teacher",
   },
