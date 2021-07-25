@@ -1,28 +1,23 @@
 import React, { Component } from "react";
-import "./Publications.css";
-
-import { FeaturedPublications } from "../InfoItems/PublicationItems";
+import "./AllPublications.css";
+import { AllPublicationItems } from "../InfoItems/PublicationItems";
 
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Table from "react-bootstrap/Table";
 
-class Publications extends Component {
+class AllPublications extends Component {
   render() {
     return (
-      <section className="publications" id="publications">
+      <section className="all_publications" id="all_publications">
         <Jumbotron fluid>
-          <Container>
-            <h1 className="jumbo-title">Publications</h1>
+          <Container fluid>
+            <h1 className="jumbo-title">All Publications</h1>
           </Container>
         </Jumbotron>
-        <div className="research-intro">
-          Here's our featured publications – check out the{" "}
-          <a href="/all_publications">full list</a>!
-        </div>
         <Table className="section-table">
           <tbody>
-            {FeaturedPublications.map((item, index) => {
+            {AllPublicationItems.map((item, index) => {
               return (
                 <tr>
                   <td>
@@ -64,4 +59,4 @@ class Publications extends Component {
   }
 }
 
-export default Publications;
+export default AllPublications;

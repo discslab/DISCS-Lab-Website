@@ -21,7 +21,7 @@ class Research extends Component {
             target="_blank"
             rel="noreferrer"
           >
-            here
+            code
           </a>
           !
         </div>

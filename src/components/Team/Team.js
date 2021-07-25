@@ -139,24 +139,6 @@ class Team extends Component {
               })}
             </tbody>
           </Table>
-          {/* {Alumni.map((item, index) => {
-            return (
-              <div className="portrait-wrapper" key={index}>
-                <span className="portrait-title">
-                  {item.title} <br />
-                  <a
-                    className="portrait-description"
-                    href={item.code_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {item.description}&nbsp;
-                    <i class="fas fa-code-branch"></i>
-                  </a>
-                </span>
-              </div>
-            );
-          })} */}
         </div>
       </section>
     );

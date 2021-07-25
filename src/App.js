@@ -10,6 +10,7 @@ import Publications from "./components/Publications/Publications";
 import Teachings from "./components/Teachings/Teachings";
 import Openings from "./components/Openings/Openings";
 import Footer from "./components/Footer/Footer";
+import AllPublications from "./components/AllPublications/AllPublications";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             <Team />
             <Research />
             <Publications />
+          </Route>
+          <Route exact path="/all_publications">
+            <AllPublications />
           </Route>
           <Route exact path="/teachings">
             <Teachings />
