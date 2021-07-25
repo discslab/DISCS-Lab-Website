@@ -12,6 +12,10 @@ export const FooterItems = [
     url: "https://www.mcgill.ca/gradapplicants/programs/computer-science",
   },
   {
+    title: "Graduate Admissions",
+    url: "https://www.cs.mcgill.ca/academic/graduate/admission/ ",
+  },
+  {
     title: "CS Research Areas",
     url: "https://www.cs.mcgill.ca/research/",
   },
