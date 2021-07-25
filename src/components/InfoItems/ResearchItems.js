@@ -15,11 +15,11 @@ export const ResearchItems = [
     context:
       "Data Science and AI workloads are ubiquitous. From taking care of our health, to running businesses, to managing our energy systems and transport planning, we leverage data science and learning to make more informed decisions. We are able to obtain these insights through the combination of smart algorithms and access to vast amounts of data. Data management now poses a bottleneck that can unfortunately slow down the entire pipeline. The way data is stored and accessed strongly influences how fast the algorithms can provide us with useful insights.",
     direction:
-      "The needs of Data Science workloads are poorly met by current general-purpose storage systems. Consequently, to obtain fast results systems rely on heuristics, approximations, or use of stale information. I am interested in designing and building a new storage system that (1) scales with the vast datasets used by Data Science workloads, (2) ingests and cleans new incoming data at high throughput, (3) serves data with low latency, and (4) is energy-efficient. This challenging goal entails many research directions, such as identifying opportunities to reduce data movement, designing adaptable data structures that harmonize with Data Science workloads, and the creative use of new storage resources (e.g., NVRAM, fast SSDs, etc.).",
+      "The needs of Data Science workloads are poorly met by current general-purpose storage systems. Consequently, to obtain fast results systems rely on heuristics, approximations, or use of stale information. At DISCS Lab, we are designing and developing new storage systems that (1) scales with the vast datasets used by Data Science workloads, (2) ingests and cleans new incoming data at high throughput, (3) serves data with low latency, and (4) is energy-efficient. This challenging goal entails many research directions, such as identifying opportunities to reduce data movement, designing adaptable data structures that harmonize with Data Science workloads, and the creative use of new storage resources (e.g., NVRAM, fast SSDs, etc.).",
     home_id: "item1",
     research_id: "research1",
     tagline:
-      "Explore how storage systems can be efficiently designed for data science and artificial intelligence workloads.",
+      "Explore how storage can be shaped to support data science workloads in real-time, on TB-scale datasets.",
     target: "#research1",
   },
   {
@@ -32,11 +32,11 @@ export const ResearchItems = [
     context:
       "Emerging storage technologies challenge fundamental assumptions in computer systems design. One major assumption being challenged is the significant performance gap between memory and persistent storage access. This gap is now bridged by Byte-addressable persistent memory (e.g., Intel 3D XPoint). Another assumption is that I/O bandwidth is the main bottleneck in storage systems. This too has changed with the development of new fast drives (e.g., Intel Optane NVMe SSDs) shifting the bottleneck to the CPU. In addition, the storage stack is getting deeper and more heterogeneous. It is likely that in a typical server developers and system administrators will have to manage RAM, persistent memory, different types of SSDs and hard disks.",
     direction:
-      "These hardware advances provide an opportunity to redesign the basic storage building blocks, such as file systems, caching policies, key-value stores, and relational databases, as well as re-questioning the appropriate level of support that should be ensured by the Operating System. Ultimately, given that the hardware and the workloads keep evolving, my long-term vision is to create a framework that automatically generates storage systems which meet the desired performance requirements, given the workload profile and a set of generic hardware characteristics (e.g., sequential access speed relative to the random access speed, bandwidth, storage capacity etc.) as inputs.",
+      "These hardware advances provide an opportunity to redesign the basic storage building blocks, such as file systems, caching policies, key-value stores, and relational databases, as well as re-questioning the appropriate level of support that should be ensured by the Operating System. Ultimately, given that the hardware and the workloads keep evolving, our long-term vision is to create a framework that automatically generates storage systems which meet the desired performance requirements, given the workload profile and a set of generic hardware characteristics (e.g., sequential access speed relative to the random access speed, bandwidth, storage capacity etc.) as inputs.",
     home_id: "item2",
     research_id: "research2",
     tagline:
-      "Reimagine how basic storage building blocks can be redesigned with emerging storage technologies.",
+      "Redesign storage software building blocks (caching, files systems, indexing) to leverage the properties of persistent memory and fast SSDs.",
     target: "#research2",
   },
   {
@@ -53,7 +53,7 @@ export const ResearchItems = [
     home_id: "item3",
     research_id: "research3",
     tagline:
-      "Overcome the resource management challenges posed by IoT from a storage systems perspective.",
+      "Tackle the data management challenges posed by IoT devices, which are expected to be the world’s largest data producers by 2025.",
     target: "#research3",
   },
 ];

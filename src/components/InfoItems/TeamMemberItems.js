@@ -6,8 +6,7 @@ export const TeamLeads = [
     subtitle: "Assistant Professor, School of Computer Science",
     image_url: "/static/images/oana.jpg",
     website_url: "https://www.cs.mcgill.ca/~balmau/",
-    description:
-      "Storage and Persistent Memory Technologies in Data Science and the Internet of Things",
+    description: "Computer Systems and Storage Technologies",
   },
 ];
 
@@ -50,7 +49,7 @@ export const Undergraduates = [
     image_url: "/static/images/xinran.png",
     website_url:
       "https://www.linkedin.com/in/xinran-xiong-b31525170/?originalSubdomain=ca",
-    description: "To Be Determined",
+    description: "Memory Overhead in LSM and Learned Indexes",
   },
   {
     title: "Yong Zhang",
@@ -72,19 +71,17 @@ export const Undergraduates = [
 export const Alumni = [
   {
     title: "James Ting",
-    subtitle: "COMP400 Project",
-    image_url: "/static/images/default_user_male.png",
-    website_url: "http://jamesting.ca/",
-    description: "Monte Carlo Tree Search for Real-Time Recommendations",
+    project:
+      "COMP-400 project: Monte Carlo Tree Search for Real-Time Recommendations",
+    position: "SDE Intern at Amazon, Vancouver",
     code_url:
       "https://gitlab.cs.mcgill.ca/discs-lab/comp-400-research-project-james-ting",
   },
   {
     title: "Victor Livernoche",
-    subtitle: "COMP400 Project",
-    image_url: "/static/images/victor.png",
-    website_url: "https://www.linkedin.com/in/victor-livernoche/",
-    description: "Data Cleaning Policies for Write-Intensive Data-Stores",
+    project:
+      "COMP-400 project: Data Cleaning Policies for Write-Intensive Datastores",
+    position: "Research Intern at Tech3Lab, HEC Montreal",
     code_url:
       "https://gitlab.cs.mcgill.ca/discs-lab/rocksdb-compaction-policy-analysis",
   },

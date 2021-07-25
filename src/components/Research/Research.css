@@ -10,6 +10,12 @@
   padding-top: 40px;
 }
 
+.research-intro {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+}
+
 .content-sidebar {
   display: flex;
   flex-wrap: wrap;
@@ -20,9 +26,8 @@
 .content-sidebar > *:nth-child(odd) {
   flex: 1 1 30%;
   letter-spacing: 1px;
-  margin-top: -30px;
   min-width: 20ch;
-  padding: 3rem 0.25rem 0;
+  padding: 1rem 0.25rem 0;
 }
 
 .content-sidebar > *:nth-child(odd):before,
@@ -39,13 +44,14 @@
 .content-sidebar > *:nth-child(even) {
   flex: 1 1 70%;
   line-height: 1.75;
-  padding: 2.5rem 0 1.5rem 5rem;
+  margin-top: 2rem;
+  padding: 0rem 0 1.5rem 5rem;
 }
 
 .content-sidebar > *:nth-child(1),
 .content-sidebar > *:nth-child(2) {
   margin-top: 0;
-  height: 70px;
+  height: 30px;
 }
 
 .title {

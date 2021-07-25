@@ -23,7 +23,7 @@ export const NavbarMenuItems = [
   },
   {
     title: "Code",
-    url: "/#code",
+    url: "https://gitlab.cs.mcgill.ca/discs-lab",
     icon: "fas fa-code",
   },
   {

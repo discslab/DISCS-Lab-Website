@@ -14,6 +14,17 @@ class Research extends Component {
             <h1 className="jumbo-title">RESEARCH</h1>
           </Container>
         </Jumbotron>
+        <div className="research-intro">
+          We open source all of our projects. Check out our DISCS Gitlab{" "}
+          <a
+            href="https://gitlab.cs.mcgill.ca/discs-lab"
+            target="_blank"
+            rel="noreferrer"
+          >
+            here
+          </a>
+          !
+        </div>
         <div className="content-sidebar">
           {ResearchItems.map((item, index) => {
             return (

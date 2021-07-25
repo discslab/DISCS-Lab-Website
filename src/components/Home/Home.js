@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+
 import DiscCardDeck from "../CardDeck/CardDeck.js";
 import "./Home.css";
 import { TypedItems } from "./TypedItems.js";
 
+import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Typing from "react-typing-animation";
@@ -22,7 +25,7 @@ class Home extends Component {
               <Typing
                 className="home-jumbotron-animation"
                 loop={true}
-                speed={50}
+                speed={10}
               >
                 {TypedItems.map((item, index) => {
                   return (
@@ -44,17 +47,41 @@ class Home extends Component {
               </Typing>
             </div>
             <p className="home-jumbotron-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
+              DISCS lab is a research group in the{" "}
+              <a
+                href="https://www.cs.mcgill.ca/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                School of Computer Science
+              </a>{" "}
+              at McGill University, led by{" "}
+              <a
+                href="https://www.cs.mcgill.ca/~balmau/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Prof. Oana Balmau
+              </a>
+              . DISCS centers around efficient storage systems. Our goal is to
+              understand how new storage technologies (persistent memory, NVMe
+              drives, RDMA) will impact the future of computer systems and shape
+              future data-intensive applications, such as data science
+              applications and edge computing.
+              <br />
+              <br />
+              An important part of the DISCS vision is training future
+              researchers that can recognize the full-system impact of new
+              technologies. We are a diverse group and are always looking to
+              recruit talented and motivated students.
               <br /> <br />
-              Curabitur dapibus leo eget velit aliquet, a ultricies purus
-              venenatis. Donec augue ligula, tristique ac eros non, lacinia
-              dapibus turpis. Sed ut perspiciatis unde omnis iste natus error
-              sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-              architecto. <br />
+              We have several fully funded open positions for PhD students.
             </p>
+            <Link to="/openings">
+              <Button className="join-button" variant="outlined-primary">
+                Join us!
+              </Button>
+            </Link>
           </Container>
         </Jumbotron>
         <DiscCardDeck />

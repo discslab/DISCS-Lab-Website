@@ -1,18 +1,14 @@
 export const TypedItems = [
   {
-    text: "explore.",
+    text: "shape the future of storage.",
     emoji: "🚀",
   },
   {
-    text: "reimagine.",
+    text: "build data-intensive systems.",
     emoji: "💡",
   },
   {
-    text: "overcome.",
+    text: "train systems researchers.",
     emoji: "🔥",
-  },
-  {
-    text: "achieve.",
-    emoji: "🎉",
   },
 ];

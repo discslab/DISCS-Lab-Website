@@ -30,6 +30,12 @@ a:hover {
   width: 100%;
 }
 
+.section-table {
+  /* margin-left: 3rem; */
+  max-width: 1260px;
+  margin-top: 1.5rem;
+}
+
 .portrait-wrapper {
   align-items: center;
   display: flex;
@@ -91,4 +97,8 @@ a:hover {
 
 .fa-external-link-alt {
   font-size: 1rem;
+}
+
+.fa-code-branch {
+  color: #168ce2;
 }

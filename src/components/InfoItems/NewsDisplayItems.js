@@ -13,7 +13,7 @@ export const NewsDisplayItems = {
       month: "April",
       type: "Talk",
       content:
-        "I will be giving a seminar on the challenges of zettabyte-scale real-time data management in the University of Melbourne CIS Series.",
+        "Oana will be giving a seminar on the challenges of zettabyte-scale real-time data management in the University of Melbourne CIS Series.",
     },
     {
       month: "April",
@@ -31,7 +31,7 @@ export const NewsDisplayItems = {
       month: "February",
       type: "Talk",
       content:
-        "I will give a keynote speech at the Australasian Computer Science Week (ACSW 21)",
+        "Oana will give a keynote speech at the Australasian Computer Science Week (ACSW 21)",
     },
   ],
   2020: [
@@ -39,13 +39,13 @@ export const NewsDisplayItems = {
       month: "December",
       type: "News",
       content:
-        "I will co-teach COMP-310/ECSE-427 Operating Systems together with Prof. Joseph Vybihal in the winter semester of 2021.",
+        "Oana will co-teach COMP-310/ECSE-427 Operating Systems together with Prof. Joseph Vybihal in the winter semester of 2021.",
     },
     {
       month: "October",
       type: "Award",
       content:
-        "My doctoral dissertation was awarded the CORE John Makepeace Bennett Award 2021! Many thanks to the CORE committee for selecting my thesis as the winner, my advisor Prof. Willy Zwaenepoel, and Prof. Irena Koprinska from the University of Sydney for supporting my application and encouraging me to apply, and to Dr. Ricardo Bianchini, Prof. Vijay Chidambaram, and Prof. Frans Kaashoek for reviewing my thesis.",
+        "Oana's doctoral dissertation was awarded the CORE John Makepeace Bennett Award 2021! Many thanks to the CORE committee for selecting my thesis as the winner, my advisor Prof. Willy Zwaenepoel, and Prof. Irena Koprinska from the University of Sydney for supporting my application and encouraging me to apply, and to Dr. Ricardo Bianchini, Prof. Vijay Chidambaram, and Prof. Frans Kaashoek for reviewing my thesis.",
     },
     {
       month: "August",
@@ -57,19 +57,19 @@ export const NewsDisplayItems = {
       month: "August",
       type: "News",
       content:
-        "I will serve in the SOSP '21, EuroSys '21 and SIGMOD '21 PCs, and the OSDI '21 ERC.",
+        "Oana will serve in the SOSP '21, EuroSys '21 and SIGMOD '21 PCs, and the OSDI '21 ERC.",
     },
     {
       month: "August",
       type: "Celebration",
       content:
-        "My Doctoral Dissertation has been nominated by the University of Sydney for this year's CORE John Makepeace Bennett Award, for the best Computer Science dissertation in Australia and New Zealand.  Each department can nominate one thesis each year. Big thanks to my advisor, Willy Zwaenepoel, for his support and guidance!",
+        "Oana's Doctoral Dissertation has been nominated by the University of Sydney for this year's CORE John Makepeace Bennett Award, for the best Computer Science dissertation in Australia and New Zealand.  Each department can nominate one thesis each year. Big thanks to my advisor, Willy Zwaenepoel, for his support and guidance!",
     },
     {
       month: "August",
       type: "Talk",
       content:
-        "I will give a talk at the Roundtable on future of data management systems, organized by the University of Waterloo.",
+        "Oana will give a talk at the Roundtable on future of data management systems, organized by the University of Waterloo.",
     },
   ],
 };

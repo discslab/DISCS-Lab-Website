@@ -60,3 +60,16 @@
   text-align: center;
   width: 100%;
 }
+
+.join-button {
+  border-color: #168ce2;
+  color: #168ce2;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.join-button:hover {
+  border-color: #168ce2;
+  color: #168ce2;
+  opacity: 0.75;
+}
