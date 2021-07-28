@@ -52,6 +52,25 @@
   margin-right: 5px;
 }
 
+.first-half {
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.second-half {
+  background-color: white;
+  border-left-style: solid;
+  border-color: #a6a6a6;
+  border-left-width: 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-weight: 600;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
 .conference-end {
   font-size: 1.25rem;
   text-align: center;
