@@ -73,9 +73,8 @@ class Home extends Component {
               An important part of the DISCS vision is training future
               researchers that can recognize the full-system impact of new
               technologies. We are a diverse group and are always looking to
-              recruit talented and motivated students.
-              <br /> <br />
-              We have several fully funded open positions for PhD students.
+              recruit talented and motivated students. We have several fully
+              funded open positions for PhD students.
             </p>
             <Link to="/openings">
               <Button className="join-button" variant="outlined-primary">

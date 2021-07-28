@@ -68,26 +68,6 @@ export const FeaturedPublications = [
       },
     ],
   },
-  {
-    title:
-      "TRIAD: Creating Synergies Between Memory, Disk and Log in LSM Key-Value Stores. USENIX Annual Technical Conference 2017 (21% acceptance ratio). O. Balmau, D. Didona, R. Guerraoui, W. Zwaenepoel, H. Yuan, A. Arora, K. Gupta, P. Konka.",
-    conference: "USENIX ATC '17",
-    stars: 27,
-    tags: [
-      {
-        subtitle: "PDF",
-        link: "https://www.usenix.org/system/files/conference/atc17/atc17-balmau.pdf",
-      },
-      {
-        subtitle: "Code",
-        link: "https://github.com/epfl-labos/TRIAD",
-      },
-      {
-        subtitle: "Slides",
-        link: "https://www.usenix.org/sites/default/files/conference/protected-files/atc17_slides_balmau.pdf",
-      },
-    ],
-  },
 ];
 
 export const AllPublicationItems = [

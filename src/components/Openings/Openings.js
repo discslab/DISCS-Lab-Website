@@ -83,17 +83,6 @@ class Openings extends Component {
           </div>
           <div className="openings-section">
             <span className="openings-subtitle">Application</span>
-            <Alert
-              className="application-alert"
-              id="application-alert-danger"
-              variant="danger"
-            >
-              <i className="fas fa-exclamation-triangle" id="alert-triangle" />
-              <p className="current-available">
-                Please make sure to follow the correct instructions for your
-                position (PhD/MSc/UG) when applying.{" "}
-              </p>
-            </Alert>
             <div className="openings-current-description">
               <b>
                 If you are interested in working with me, please do the
@@ -197,9 +186,6 @@ class Openings extends Component {
                   <li className="topic-list-item">
                     Please consider taking COMP-310, as it provides important
                     background for the research projects conducted in DISCS.
-                  </li>
-                  <li className="topic-list-item">
-                    Please include a copy of your resume/CV and transcript.
                   </li>
                 </ul>
               </div>

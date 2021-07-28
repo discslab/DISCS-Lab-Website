@@ -12,7 +12,7 @@ export const TeachingsItems = {
           link: "https://sites.google.com/view/oanabalmau",
         },
       ],
-      prerequisites: ["COMP 206", "COMP 273", "COMP 310"],
+      prerequisites: ["COMP 310"],
       syllabus: "https://sites.google.com/view/oanabalmau/pocs?authuser=0",
       notes:
         "There are no prerequisites for graduate students, but a background in operating systems, databases, networking, and computer architecture is highly recommended.",

@@ -13,7 +13,7 @@ class Publications extends Component {
       <section className="publications" id="publications">
         <Jumbotron fluid>
           <Container>
-            <h1 className="jumbo-title">Publications</h1>
+            <h1 className="jumbo-title">Selected Publications</h1>
           </Container>
         </Jumbotron>
         <div className="research-intro">
@@ -57,6 +57,13 @@ class Publications extends Component {
                 </tr>
               );
             })}
+            <tr>
+              <td>
+                <div className="conference-end">
+                  <a href="/all_publications">Full Publication List</a>
+                </div>
+              </td>
+            </tr>
           </tbody>
         </Table>
       </section>

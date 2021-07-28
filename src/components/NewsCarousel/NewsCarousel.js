@@ -15,9 +15,6 @@ const NewsCarousel = (props) => {
               src={item.image_url}
               alt={item.title}
             />
-            <Carousel.Caption className="carousel-caption">
-              [{item.title}] {item.caption}
-            </Carousel.Caption>
           </Carousel.Item>
         );
       })}

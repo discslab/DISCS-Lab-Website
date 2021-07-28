@@ -14,7 +14,7 @@ class Footer extends Component {
               <div className="site-logo">
                 <img
                   className="site-image"
-                  src="/static/logos/DISCSLab-Logo-Transparent-D.png"
+                  src="/static/logos/cropped_square_logo.png"
                   alt="site-logo"
                 ></img>
               </div>
