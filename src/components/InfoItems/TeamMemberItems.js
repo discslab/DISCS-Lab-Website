@@ -14,7 +14,7 @@ export const Graduates = [
   {
     title: "Hosein Yavarzadeh",
     subtitle: "Incoming MSc. Student",
-    image_url: "/static/images/default_user_male.png",
+    image_url: "/static/images/default_user.png",
     website_url: "https://hoseinyavarzadeh.github.io/",
     description: "Computer Architecture and Computer Security",
   },
