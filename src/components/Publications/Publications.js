@@ -16,10 +16,6 @@ class Publications extends Component {
             <h1 className="jumbo-title">Selected Publications</h1>
           </Container>
         </Jumbotron>
-        <div className="research-intro">
-          Here's our featured publications – check out the{" "}
-          <a href="/all_publications">full list</a>!
-        </div>
         <Table className="section-table">
           <tbody>
             {FeaturedPublications.map((item, index) => {

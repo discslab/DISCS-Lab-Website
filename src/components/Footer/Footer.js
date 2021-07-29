@@ -41,7 +41,12 @@ class Footer extends Component {
               <ul className="site-links-list">
                 {NavbarMenuItems.map((item, index) => {
                   return (
-                    <a className="site-link-item" href={item.url}>
+                    <a
+                      className="site-link-item"
+                      href={item.url}
+                      target={item.title === "Code" ? "_blank" : null}
+                      rel="noreferrer"
+                    >
                       <li>{item.title}</li>
                     </a>
                   );
