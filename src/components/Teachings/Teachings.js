@@ -62,7 +62,7 @@ class Teachings extends Component {
                         <span className="teachings-list-section">
                           <div className="teachings-list-subtitle">
                             <i class="fas fa-exclamation-triangle"></i>{" "}
-                            Prerequisites
+                            Prerequisites for Undergraduate Students
                           </div>{" "}
                           <span className="teachings-prerequisites">
                             {item.prerequisites.map((prereq, count) => {

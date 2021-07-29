@@ -43,6 +43,8 @@ class Navbar extends Component {
                   className="nav-links"
                   href={item.url}
                   onClick={this.handleClick}
+                  target={item.title === "Code" ? "_blank" : null}
+                  rel="noreferrer"
                 >
                   <i className={item.icon}></i>
                   {item.title}
