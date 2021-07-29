@@ -40,7 +40,7 @@ export const Undergraduates = [
     title: "Brian Hu",
     subtitle: "NSERC Project",
     image_url: "/static/images/brian.jpg",
-    website_url: "https://briannhu.github.io/portfolio/",
+    website_url: "https://brianhu.ca",
     description: "NoSQL Systems Design for Real-Time Data Analytics",
   },
   {
