@@ -4,6 +4,12 @@
 export const NewsDisplayItems = {
   2021: [
     {
+      month: "June",
+      type: "Celebration",
+      content:
+        "The Natural Sciences and Engineering Research Council of Canada awarded DISCS a Discovery Grant. Thank you, NSERC!",
+    },
+    {
       month: "April",
       type: "Celebration",
       content:

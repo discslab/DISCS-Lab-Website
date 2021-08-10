@@ -3,7 +3,7 @@ export const FeaturedPublications = [
     title:
       "Snapshot Isolation Without Snapshots. USENIX Symposium on Operating Systems Design and Implementation 2020 (17% acceptance ratio). B. Lepers, O. Balmau, K. Gupta , W. Zwaenepoel.",
     conference: "OSDI '20",
-    stars: 168,
+    stars: 171,
     tags: [
       {
         subtitle: "PDF",
@@ -23,7 +23,7 @@ export const FeaturedPublications = [
     title:
       "KVell: the Design and Implementation of a Fast Persistent Key-Value Store. Symposium on Operating Systems Principles 2019 (14% acceptance ratio). B. Lepers, O. Balmau, K. Gupta , W. Zwaenepoel.",
     conference: "SOSP '19",
-    stars: 168,
+    stars: 171,
     tags: [
       {
         subtitle: "PDF",
@@ -75,7 +75,7 @@ export const AllPublicationItems = [
     title:
       "Snapshot Isolation Without Snapshots. USENIX Symposium on Operating Systems Design and Implementation 2020 (17% acceptance ratio). B. Lepers, O. Balmau, K. Gupta , W. Zwaenepoel.",
     conference: "OSDI '20",
-    stars: 168,
+    stars: 171,
     tags: [
       {
         subtitle: "PDF",
@@ -108,7 +108,7 @@ export const AllPublicationItems = [
     title:
       "KVell: the Design and Implementation of a Fast Persistent Key-Value Store. Symposium on Operating Systems Principles 2019 (14% acceptance ratio). B. Lepers, O. Balmau, K. Gupta , W. Zwaenepoel.",
     conference: "SOSP '19",
-    stars: 168,
+    stars: 171,
     tags: [
       {
         subtitle: "PDF",

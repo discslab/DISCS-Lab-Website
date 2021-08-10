@@ -12,11 +12,11 @@ export const TeamLeads = [
 
 export const Graduates = [
   {
-    title: "Hosein Yavarzadeh",
-    subtitle: "Incoming MSc. Student",
-    image_url: "/static/images/default_user.png",
-    website_url: "https://hoseinyavarzadeh.github.io/",
-    description: "Computer Architecture and Computer Security",
+    title: "Tongyou (Eason) Yang",
+    subtitle: "MSc. Student",
+    image_url: "/static/images/eason.jpg",
+    website_url: "https://www.linkedin.com/in/eason-y/ ",
+    description: "To Be Determined",
   },
   {
     title: "Si Yi Li",
