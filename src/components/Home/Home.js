@@ -67,7 +67,7 @@ class Home extends Component {
               understand how new storage technologies (persistent memory, NVMe
               drives, RDMA) will impact the future of computer systems and shape
               future data-intensive applications, such as data science
-              applications and edge computing.
+              applications and edge computing. TEST
               <br />
               <br />
               An important part of the DISCS vision is training future
