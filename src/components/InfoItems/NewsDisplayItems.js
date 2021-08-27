@@ -3,6 +3,13 @@
 // TO EDIT: Add new object at beginning of array (most recent is at the beginning)
 export const NewsDisplayItems = {
   2021: [
+
+    {
+      month: "June",
+      type: "Celebration",
+      content:
+        "The Canada Foundation for Innovation awarded DISCS a John R. Evans Leaders Fund Grant (JELF). Thank you, CFI!",
+    },
     {
       month: "June",
       type: "Celebration",
