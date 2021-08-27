@@ -37,13 +37,6 @@ export const Undergraduates = [
     description: "Data Storage in Data Science",
   },
   {
-    title: "Brian Hu",
-    subtitle: "NSERC Project",
-    image_url: "/static/images/brian.jpg",
-    website_url: "https://brianhu.ca",
-    description: "NoSQL Systems Design for Real-Time Data Analytics",
-  },
-  {
     title: "Xinran Xiong",
     subtitle: "COMP400 Project",
     image_url: "/static/images/xinran.png",
@@ -73,7 +66,7 @@ export const Alumni = [
     title: "James Ting",
     project:
       "COMP-400 project: Monte Carlo Tree Search for Real-Time Recommendations",
-    position: "SDE Intern at Amazon, Vancouver",
+    position: "Software Engineering Intern at Amazon, Vancouver",
     code_url:
       "https://gitlab.cs.mcgill.ca/discs-lab/comp-400-research-project-james-ting",
   },
@@ -84,5 +77,13 @@ export const Alumni = [
     position: "Research Intern at Tech3Lab, HEC Montreal",
     code_url:
       "https://gitlab.cs.mcgill.ca/discs-lab/rocksdb-compaction-policy-analysis",
+  },
+    {
+    title: "Brian Hu",
+    project:
+      "NSERC Project: NoSQL Systems Design for Real-Time Data Analytics",
+    position: "Software Engineering Intern at CloudOps, Montreal",
+    code_url:
+      "https://gitlab.cs.mcgill.ca/discs-lab/real-time-analytics",
   },
 ];
