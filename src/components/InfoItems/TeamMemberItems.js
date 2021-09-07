@@ -48,11 +48,19 @@ export const Undergraduates = [
   },
   {
     title: "Namdar Nejad",
-    subtitle: "COMP 400 Project, Honours Software Engineering",
+    subtitle: "COMP 400 Project, Honours",
     image_url: "/static/images/namdar.png",
     website_url:
       "https://www.linkedin.com/in/namdar-nejad-1bb28819b/",
     description: "Caching for Hierarchical Memory",
+  },
+    {
+    title: "Yu Rong",
+    subtitle: "COMP 396 Project",
+    image_url: "/static/images/yu-rong.jpeg",
+    website_url:
+      "https://www.linkedin.com/in/yu-rong-6b09371ba/",
+    description: "Real-time Adaptive Compaction Policies for LSM Trees",
   },
 
 ];
