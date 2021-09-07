@@ -62,13 +62,21 @@ export const Undergraduates = [
       "https://www.linkedin.com/in/yu-rong-6b09371ba/",
     description: "Real-time Adaptive Compaction Policies for LSM Trees",
   },
+  {
+    title: "Gabriela Rueda",
+    subtitle: "COMP 400 Project",
+    image_url: "/static/images/gabriela.png",
+    website_url:
+      "linkedin.com/in/gabriela-rueda/",
+    description: "Optimizing PolyStore Database Systems for Real-Time Edge Computing",
+  },
 
 ];
 
 export const Alumni = [
     {
     title: "Yunjia Zheng",
-    project: "Data Cracking in NoSQL Databases",
+    project: "Data Cracking in NoSQL Databases (Feng Qian Award)",
     position: "Continue Undergraduate Degree at McGill",
     code_url: "https://gitlab.cs.mcgill.ca/discs-lab/lsm-data-cracking"
   },
