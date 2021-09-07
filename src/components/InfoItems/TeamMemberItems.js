@@ -11,20 +11,20 @@ export const TeamLeads = [
 ];
 
 export const Graduates = [
-  {
-    title: "Tongyou (Eason) Yang",
-    subtitle: "MSc. Student",
-    image_url: "/static/images/eason.jpg",
-    website_url: "https://www.linkedin.com/in/eason-y/ ",
-    description: "To Be Determined",
-  },
+  // {
+  //   title: "Tongyou (Eason) Yang",
+  //   subtitle: "MSc. Student",
+  //   image_url: "/static/images/eason.jpg",
+  //   website_url: "https://www.linkedin.com/in/eason-y/ ",
+  //   description: "To Be Determined",
+  // },
   {
     title: "Si Yi Li",
-    subtitle: "Incoming MSc. Student",
+    subtitle: "MSc. Student",
     image_url: "/static/images/si.jpg",
     website_url:
       "https://www.linkedin.com/in/si-yi-li-69a5548a/?originalSubdomain=ca",
-    description: "To Be Determined",
+    description: "KVell SQL Interface",
   },
 ];
 
