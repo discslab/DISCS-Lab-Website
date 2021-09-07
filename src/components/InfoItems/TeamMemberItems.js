@@ -29,16 +29,10 @@ export const Graduates = [
 ];
 
 export const Undergraduates = [
-  {
-    title: "Abha Jha",
-    subtitle: "Summer Internship",
-    image_url: "/static/images/abha.jpg",
-    website_url: "https://www.linkedin.com/in/abha-jha-b7465b19a/",
-    description: "Data Storage in Data Science",
-  },
+
   {
     title: "Xinran Xiong",
-    subtitle: "COMP400 Project",
+    subtitle: "Research Intern",
     image_url: "/static/images/xinran.png",
     website_url:
       "https://www.linkedin.com/in/xinran-xiong-b31525170/?originalSubdomain=ca",
@@ -46,22 +40,36 @@ export const Undergraduates = [
   },
   {
     title: "Yong Zhang",
-    subtitle: "Summer Internship",
+    subtitle: "Research Intern",
     image_url: "/static/images/yong.png",
     website_url:
       "https://www.linkedin.com/in/yong-zhang-a09008193/?originalSubdomain=ca",
     description: "Learned Indexes and Persistency",
   },
   {
-    title: "Yunjia Zheng",
-    subtitle: "Summer Internship",
-    image_url: "/static/images/yunjia.jpeg",
-    website_url: "https://www.linkedin.com/in/yunjia-zheng-886a77182/",
-    description: "Adaptation of NoSql Databases to Big Data Applications",
+    title: "Namdar Nejad",
+    subtitle: "COMP 400 Project, Honours Software Engineering",
+    image_url: "/static/images/namdar.png",
+    website_url:
+      "https://www.linkedin.com/in/namdar-nejad-1bb28819b/",
+    description: "Caching for Hierarchical Memory",
   },
+
 ];
 
 export const Alumni = [
+    {
+    title: "Yunjia Zheng",
+    project: "Data Cracking in NoSQL Databases",
+    position: "Continue Undergraduate Degree at McGill",
+    code_url: "https://gitlab.cs.mcgill.ca/discs-lab/lsm-data-cracking"
+  },
+  {
+    title: "Abha Jha",
+    project: "Data Cracking in NoSQL Databases",
+    position: "Software Engineering Intern at Microsoft, India",
+    code_url: "https://gitlab.cs.mcgill.ca/discs-lab/lsm-data-cracking"
+  },
   {
     title: "James Ting",
     project:
