@@ -78,9 +78,9 @@ class News extends Component {
           </Container>
         </Jumbotron>
         <header className="news-title-wrapper">NEWS</header>
-        <div className="news-display-wrapper">
-          <NewsCarousel />
-        </div>
+        // <div className="news-display-wrapper">
+        //   <NewsCarousel />
+        // </div>
         <div className="news-info-wrapper">
           <div className="news-year-wrapper">
             <ul className="news-year-list">
