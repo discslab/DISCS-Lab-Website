@@ -32,7 +32,7 @@ export const Undergraduates = [
 
   {
     title: "Xinran Xiong",
-    subtitle: "Research Intern",
+    subtitle: "Research Intern (Honours)",
     image_url: "/static/images/xinran.png",
     website_url:
       "https://www.linkedin.com/in/xinran-xiong-b31525170/?originalSubdomain=ca",
@@ -40,7 +40,7 @@ export const Undergraduates = [
   },
   {
     title: "Yong Zhang",
-    subtitle: "Research Intern",
+    subtitle: "Research Intern (Honours)",
     image_url: "/static/images/yong.png",
     website_url:
       "https://www.linkedin.com/in/yong-zhang-a09008193/?originalSubdomain=ca",
@@ -48,7 +48,7 @@ export const Undergraduates = [
   },
   {
     title: "Namdar Nejad",
-    subtitle: "COMP 400 Project, Honours",
+    subtitle: "COMP 400 Project (Honours)",
     image_url: "/static/images/namdar.png",
     website_url:
       "https://www.linkedin.com/in/namdar-nejad-1bb28819b/",
@@ -70,12 +70,28 @@ export const Undergraduates = [
       "linkedin.com/in/gabriela-rueda/",
     description: "Optimizing PolyStore Database Systems for Real-Time Edge Computing",
   },
+    {
+    title: "Ruoyu Wang",
+    subtitle: "COMP 400 Project",
+    image_url: "/static/images/ruoyu.jpg",
+    website_url:
+      "http://discslab.cs.mcgill.ca/",
+    description: "The Timed Structured Merge Tree and The Inverted Index in Time Series Database",
+  },
+      {
+    title: "Jiaxuan Chen",
+    subtitle: "Research Intern (Honours)",
+    image_url: "/static/images/jiaxuan.jpg",
+    website_url:
+      "https://www.linkedin.com/in/jiaxuan-chen-644741216/",
+    description: "The Timed Structured Merge Tree and The Inverted Index in Time Series Database",
+  },
 
 ];
 
 export const Alumni = [
     {
-    title: "Yunjia Zheng",
+    title: "Yunjia Zheng (Honours)",
     project: "Data Cracking in NoSQL Databases (Feng Qian Award)",
     position: "Continue Undergraduate Degree at McGill",
     code_url: "https://gitlab.cs.mcgill.ca/discs-lab/lsm-data-cracking"
@@ -89,15 +105,15 @@ export const Alumni = [
   {
     title: "James Ting",
     project:
-      "COMP-400 project: Monte Carlo Tree Search for Real-Time Recommendations",
+      "COMP-400: Monte Carlo Tree Search for Real-Time Recommendations",
     position: "Software Engineering Intern at Amazon, Vancouver",
     code_url:
       "https://gitlab.cs.mcgill.ca/discs-lab/comp-400-research-project-james-ting",
   },
   {
-    title: "Victor Livernoche",
+    title: "Victor Livernoche (Honours)",
     project:
-      "COMP-400 project: Data Cleaning Policies for Write-Intensive Datastores",
+      "COMP-400: Data Cleaning Policies for Write-Intensive Datastores",
     position: "Research Intern at Tech3Lab, HEC Montreal",
     code_url:
       "https://gitlab.cs.mcgill.ca/discs-lab/rocksdb-compaction-policy-analysis",
