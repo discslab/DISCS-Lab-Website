@@ -67,7 +67,7 @@ export const Undergraduates = [
     subtitle: "COMP 400 Project",
     image_url: "/static/images/gabriela.png",
     website_url:
-      "linkedin.com/in/gabriela-rueda/",
+      "https://www.linkedin.com/in/gabriela-rueda/",
     description: "Optimizing PolyStore Database Systems for Real-Time Edge Computing",
   },
     {
