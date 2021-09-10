@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./News.css";
-import NewsCarousel from "../NewsCarousel/NewsCarousel.js";
+// import NewsCarousel from "../NewsCarousel/NewsCarousel.js";
 import { NewsIconItems } from "../InfoItems/NewsIconItems";
 import { NewsDisplayItems } from "../InfoItems/NewsDisplayItems";
 

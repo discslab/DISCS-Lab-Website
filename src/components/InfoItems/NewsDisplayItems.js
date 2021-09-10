@@ -5,6 +5,12 @@ export const NewsDisplayItems = {
   2021: [
 
     {
+      month: "September",
+      type: "Celebration",
+      content:
+        "Congratulations to Yunjia Zheng and Abha Jha for having their work on data cracking for LSM selected for a poster in the McGill Undergraduate Research Symposium!",
+    },
+    {
       month: "June",
       type: "Celebration",
       content:
