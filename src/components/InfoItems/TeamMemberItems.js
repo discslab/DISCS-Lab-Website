@@ -22,7 +22,7 @@ export const Graduates = [
   },
     {
     title: "Sebastian Rolon",
-    subtitle: "MSc. Student",
+    subtitle: "MSc. Student – co-advised with Prof. Xue Liu",
     image_url: "/static/images/sebastian-cropped.png",
     website_url:
       "https://www.linkedin.com/in/js-rolon/",
