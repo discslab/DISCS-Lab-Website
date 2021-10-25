@@ -23,7 +23,7 @@ export const Graduates = [
     {
     title: "Sebastian Rolon",
     subtitle: "MSc. Student",
-    image_url: "/static/images/sebastian.jpg",
+    image_url: "/static/images/sebastian-cropped.png",
     website_url:
       "https://www.linkedin.com/in/js-rolon/",
     description: "Storage Device Virtualization",
