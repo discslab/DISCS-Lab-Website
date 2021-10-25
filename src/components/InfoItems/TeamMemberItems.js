@@ -11,13 +11,7 @@ export const TeamLeads = [
 ];
 
 export const Graduates = [
-  // {
-  //   title: "Tongyou (Eason) Yang",
-  //   subtitle: "MSc. Student",
-  //   image_url: "/static/images/eason.jpg",
-  //   website_url: "https://www.linkedin.com/in/eason-y/ ",
-  //   description: "To Be Determined",
-  // },
+
   {
     title: "Si Yi Li",
     subtitle: "MSc. Student",
@@ -25,6 +19,14 @@ export const Graduates = [
     website_url:
       "https://www.linkedin.com/in/si-yi-li-69a5548a/?originalSubdomain=ca",
     description: "KVell SQL Interface",
+  },
+    {
+    title: "Sebastian Rolon",
+    subtitle: "MSc. Student",
+    image_url: "/static/images/sebastian.jpg",
+    website_url:
+      "https://www.linkedin.com/in/js-rolon/",
+    description: "Storage Device Virtualization",
   },
 ];
 
