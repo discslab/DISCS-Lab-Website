@@ -41,4 +41,9 @@ export const NavbarMenuItems = [
     url: "/openings",
     icon: "fas fa-plus-circle",
   },
+    {
+    title: "Systems Seminar",
+    url: "/seminar",
+    icon: "fas fa-seminar",
+  },
 ];

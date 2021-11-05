@@ -1,0 +1,73 @@
+.openings {
+  background-color: white;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.openings-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 80%;
+}
+
+.openings-section {
+  line-height: 1.6;
+  margin: 0 0 2rem;
+}
+
+.current-available {
+  margin: 0;
+}
+
+.openings-subtitle {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.openings-current-description {
+  font-size: 1.1rem;
+}
+
+.topic-list {
+  margin: 0.5rem 3rem;
+}
+
+.application-alert {
+  display: inline-flex;
+  margin: 1rem 0 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+#application-alert-success {
+  color: green;
+  background-color: #edf7ef;
+  border: 1px green solid;
+}
+
+#application-alert-danger {
+  color: red;
+  background-color: #fff5f7;
+  border: 1px red solid;
+}
+
+#alert-circle,
+#alert-triangle {
+  font-size: 1.5em;
+  margin-bottom: 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.openings-app-section {
+  margin: 1rem 0;
+}
+
+.openings-app-subtitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

@@ -113,6 +113,10 @@
   display: none;
 }
 
+.fa-seminar {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .NavbarItems {
     align-items: center;
@@ -214,6 +218,11 @@
   }
 
   .fa-plus-circle {
+    display: inline;
+    padding-right: 0.5rem;
+  }
+
+  .fa-seminar {
     display: inline;
     padding-right: 0.5rem;
   }

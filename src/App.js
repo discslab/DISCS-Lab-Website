@@ -9,6 +9,7 @@ import News from "./components/News/News";
 import Publications from "./components/Publications/Publications";
 import Teachings from "./components/Teachings/Teachings";
 import Openings from "./components/Openings/Openings";
+import Seminar from "./components/Seminar/Seminar";
 import Footer from "./components/Footer/Footer";
 import AllPublications from "./components/AllPublications/AllPublications";
 
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route exact path="/openings">
             <Openings />
+          </Route>
+          <Route exact path="/seminar">
+            <Seminar />
           </Route>
         </Switch>
         <Footer />
