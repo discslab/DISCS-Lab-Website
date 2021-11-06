@@ -31,7 +31,7 @@ class Navbar extends Component {
             "all_publications",
             "teachings",
             "openings",
-            "seminar",
+            "seminar"
           ]}
           currentClassName="--active"
           className={this.state.clicked ? "nav-menu active" : "nav-menu"}

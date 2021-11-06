@@ -57,7 +57,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(9, auto);
   list-style-type: none;
   text-align: center;
   width: 70vw;
