@@ -1,7 +1,25 @@
 // Displayed in TEACHING section
 // NOTE: If class has no prerequisites, enter "none" into prerequisites array and it will display as green button instead of red and will not link to anything
 export const TeachingsItems = {
-  "Fall 2021": [
+    "Winter 22, 21": [
+    {
+      course: "COMP 310: Operating Systems",
+      overview:
+        "Control and scheduling of large information processing systems. Operating system software - resource allocation, dispatching, processors, access methods, job control languages, main storage management. Batch processing, multiprogramming, multiprocessing, time sharing.",
+      instructors: [
+        {
+          name: "Oana Balmau",
+          link: "https://sites.google.com/view/oanabalmau",
+        }
+      ],
+      prerequisites: ["COMP 273"],
+      syllabus:
+        "https://www.cs.mcgill.ca/~jvybihal/assets/outlines/COMP310ECSE427CourseOutline.pdf",
+      notes: "",
+    },
+  ],
+
+  "Fall 21": [
     {
       course: "COMP 596: Principles of Computer Systems",
       overview:
@@ -18,25 +36,5 @@ export const TeachingsItems = {
         "There are no prerequisites for graduate students, but a background in operating systems, databases, networking, and computer architecture is highly recommended.",
     },
   ],
-  "Winter 2021": [
-    {
-      course: "COMP 310: Operating Systems",
-      overview:
-        "Control and scheduling of large information processing systems. Operating system software - resource allocation, dispatching, processors, access methods, job control languages, main storage management. Batch processing, multiprogramming, multiprocessing, time sharing.",
-      instructors: [
-        {
-          name: "Oana Balmau",
-          link: "https://sites.google.com/view/oanabalmau",
-        },
-        {
-          name: "Joseph Vybihal",
-          link: "https://www.cs.mcgill.ca/~jvybihal/index.php?Page=Home",
-        },
-      ],
-      prerequisites: ["COMP 273"],
-      syllabus:
-        "https://www.cs.mcgill.ca/~jvybihal/assets/outlines/COMP310ECSE427CourseOutline.pdf",
-      notes: "",
-    },
-  ],
+
 };
