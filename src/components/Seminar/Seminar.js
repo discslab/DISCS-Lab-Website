@@ -14,20 +14,30 @@ class Seminar extends Component {
             <h1 className="jumbo-title">McGill CS Systems Seminar</h1>
           </Container>
         </Jumbotron>
-        <div className="seminar-wrapper">
-          <div className="seminar-section">
-          <span className="upcoming-seminars-subtitle">Upcoming Seminars</span>
+        <div className="openings-wrapper">
+          <div className="openings-section">
+            <span className="openings-subtitle">Current Openings</span>
 
-            <div className="seminar-description">
-              Roughly bi-weekly, the McGill CS systems group is running a seminar, which is open for McGill students and invited speakers to present their latest work. If you would like to present, propose a speaker, or join our mailing list, please get in touch at oana.balmau@cs.mcgill.ca
+            <div className="openings-current-description">
+              I love working with students and I am always looking for
+              motivated, curious, and hardworking undergraduate, Master’s, and
+              PhD students to join DISCS. Before applying formally, feel free to
+              contact me by email. I read all email I receive from prospective
+              students.
               <br />
               <br />
-              Past seminars:
+              Before writing to me, do keep in mind that I receive a lot of
+              email from students interested in applying to McGill. If you would
+              like to get a response, please read the following and send me the
+              information I request.
+              <br />
+              <br />
+              If you are applying to our <b>graduate</b> programs (PhD and
+              Master’s), you should also be aware of the following:
+
             </div>
-
-          <span className="past-seminars-subtitle">Past Seminars</span>
-           
           </div>
+
         </div>
       </section>
 
