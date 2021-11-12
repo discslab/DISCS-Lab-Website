@@ -16,6 +16,7 @@ class Seminar extends Component {
         </Jumbotron>
         <div className="seminar-wrapper">
           <div className="seminar-section">
+          <span className="upcoming-seminars-subtitle">Upcoming Seminars</span>
 
             <div className="seminar-description">
               Roughly bi-weekly, the McGill CS systems group is running a seminar, which is open for McGill students and invited speakers to present their latest work. If you would like to present, propose a speaker, or join our mailing list, please get in touch at oana.balmau@cs.mcgill.ca
@@ -23,6 +24,9 @@ class Seminar extends Component {
               <br />
               Past seminars:
             </div>
+
+          <span className="past-seminars-subtitle">Past Seminars</span>
+           
           </div>
         </div>
       </section>
