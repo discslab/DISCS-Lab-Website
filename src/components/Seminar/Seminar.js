@@ -51,13 +51,13 @@ class Seminar extends Component {
                 {Alumni.map((item, index) => {
                   return (
                     <tr>
-                      <td>{item.title}</td>
-                      <td>{item.project}</td>
-                      <td>{item.position}</td>
+                      <td>{item.date}</td>
+                      <td>{item.name}</td>
+                      <td>{item.talk}</td>
                       <td>
                         <a
                           className="portrait-description"
-                          href={item.code_url}
+                          href={item.slides}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
