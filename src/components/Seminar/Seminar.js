@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./Seminar.css";
 import {
-  Alumni,
+  Speakers,
 } from "../InfoItems/SeminarSpeakerItems";
 import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/Container";
