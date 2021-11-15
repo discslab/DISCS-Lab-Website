@@ -28,6 +28,21 @@
   font-weight: 900;
 }
 
+.seminar-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 1rem 3rem;
+  width: 100%;
+}
+
+.seminar-table {
+  /* margin-left: 3rem; */
+  max-width: 1260px;
+  margin-top: 1.5rem;
+}
+
 .seminar-current-description {
   font-size: 1.1rem;
 }

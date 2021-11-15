@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
 import "./Seminar.css";
+import {
+  Alumni,
+} from "../InfoItems/TeamMemberItems";
 import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
@@ -28,6 +31,43 @@ class Seminar extends Component {
           </div>
 
         </div>
+
+        <span className="seminar-subtitle">Past Seminars</span>
+          <div className="seminar-wrapper">
+          <Table className="seminar-table">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Project Title</th>
+                <th>Position after DISCS</th>
+                <th>Code</th>
+              </tr>
+            </thead>
+            <tbody>
+              {Alumni.map((item, index) => {
+                return (
+                  <tr>
+                    <td>{item.title}</td>
+                    <td>{item.project}</td>
+                    <td>{item.position}</td>
+                    <td>
+                      <a
+                        className="portrait-description"
+                        href={item.code_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {item.description}&nbsp;
+                        <i class="fas fa-code-branch"></i>
+                      </a>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </Table>
+        </div>
+
       </section>
 
     );
