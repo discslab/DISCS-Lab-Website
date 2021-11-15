@@ -48,7 +48,7 @@ class Seminar extends Component {
                 </tr>
               </thead>
               <tbody>
-                {Alumni.map((item, index) => {
+                {Speakers.map((item, index) => {
                   return (
                     <tr>
                       <td>{item.date}</td>
