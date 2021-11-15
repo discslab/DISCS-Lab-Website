@@ -54,9 +54,9 @@ class Openings extends Component {
                 </li>
                 <li className="topic-list-item">
                   The department begins reviewing applications in January for
-                  the following academic year. The application deadline for
-                  international students requiring financial support is January
-                  1st.{" "}
+                  the following academic year. <b>The application deadline for
+                  international students requiring financial support is December
+                  15.</b>{" "}
                 </li>
                 <li className="topic-list-item">
                   You cannot be admitted if you do not submit a complete
