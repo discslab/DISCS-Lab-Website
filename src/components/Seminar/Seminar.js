@@ -7,6 +7,8 @@ import {
 import Alert from "react-bootstrap/Alert";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Table from "react-bootstrap/Table";
+
 
 class Seminar extends Component {
   render() {
