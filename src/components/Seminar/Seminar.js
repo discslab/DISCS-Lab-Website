@@ -28,9 +28,9 @@ class Seminar extends Component {
               which is open for McGill students and invited speakers to present their 
               latest work. If you would like to present, propose a speaker, or join 
               our mailing list, please get in touch.
-              </br>
+              <br />
               <b>Update:</b> We are currently looking for speakers for the Winter 22 term. Are you a McGill (undergraduate or graduate) student? Do you have a compelling systems project you'd like to present? Or an idea that is still brewing on which you'd like to get feedback? Then you are a great match for a seminar speaker – don't hesitate to get in touch! 
-              </br>
+              <br />
               Contact: oana.balmau@cs.mcgill.ca
 
             </div>
