@@ -13,13 +13,13 @@ export const NewsDisplayItems = {
       month: "November",
       type: "Talk",
       content:
-        "Oana will give a <a href="https://www.cs.rochester.edu/dept/seminar/view/dept">seminar</a> at the University of Rochester on November 19.",
+        "Oana will give a seminar at the University of Rochester on November 19.",
     },
     {
       month: "October",
       type: "Award",
       content:
-        "Oana's PhD thesis was awarded an Honorable Mention for the <a href="https://www.sigops.org/awards/dmr/">Dennis M. Ritchie Doctoral Dissertation Award</a>! Many thanks to the ACM SIGOPS awards committee and to her advisor, Prof. Willy Zwaenepoel.",
+        "Oana's PhD thesis was awarded an Honorable Mention for the Dennis M. Ritchie Doctoral Dissertation Award! Many thanks to the ACM SIGOPS awards committee and to her advisor, Prof. Willy Zwaenepoel.",
     },
     {
       month: "October",
