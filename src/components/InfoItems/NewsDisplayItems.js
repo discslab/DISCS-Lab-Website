@@ -4,6 +4,30 @@
 export const NewsDisplayItems = {
   2021: [
     {
+      month: "November",
+      type: "News",
+      content:
+        "Oana will teach COMP-310/ECSE-427 Operating Systems in Winter '22.",
+    },
+    {
+      month: "November",
+      type: "Talk",
+      content:
+        "Oana will give a <a href="https://www.cs.rochester.edu/dept/seminar/view/dept">seminar</a> at the University of Rochester on November 19.",
+    },
+    {
+      month: "October",
+      type: "Award",
+      content:
+        "Oana's PhD thesis was awarded an Honorable Mention for the <a href="https://www.sigops.org/awards/dmr/">Dennis M. Ritchie Doctoral Dissertation Award</a>! Many thanks to the ACM SIGOPS awards committee and to her advisor, Prof. Willy Zwaenepoel.",
+    },
+    {
+      month: "October",
+      type: "News",
+      content:
+        "will serve in the OSDI '22, and SIGMOD '22 Program Committees.",
+    },
+    {
       month: "September",
       type: "Celebration",
       content:
